@@ -1,0 +1,11 @@
+1 - analisamos o que o metodo AbreArea fazia e percebemos que a unica mudança necessaria era abrir celulas que estavam coladas nas celulas 
+"vazias" e tinham o contador de bombas maior que zero, então utilizamos o mesmo bloco de codigo que faz a contagem das bombas ao redor de uma celula vazia, trocamos a condição para dar positivo quando encontra uma celula com contador de bombas maior que zero e assim deixando a celula com marcador "Aberto".
+
+2 - entender a diferença do padrão da figura 2 comparado a figura 1 e implementar dentro do que ja estava sendo utilizado.
+
+3 - neste primeiro momento não encontramos casos onde a mudança no código feito para essa avaliação possa vir a falhar.
+
+4 - quando for implementado a jogabilidade dentro deste código, no momento da escolha não abrir areas tão grandes para não comprometer a jogabilidade e tornar o jogo mais facil.
+
+
+
